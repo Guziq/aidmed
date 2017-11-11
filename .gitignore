@@ -30,10 +30,5 @@ Temporary Items
 .sass-cache/
 *.css.map
 
-
-### Gulp build ###
-dist
-
-
 ### npm ###
 node_modules

@@ -7,16 +7,12 @@
     "url": "git+https://github.com/BuckyMaler/fitness.git"
   },
   "scripts": {
-    "start": "node app",
-    "postinstall": "gulp default"
+    "start": "node app.js"
   },
   "author": {
     "name": "Bucky Maler",
     "url": "buckymaler.com",
     "mail": "maler.bucky@gmail.com"
-  },
-  "engines": {
-    "node": "~8.4"
   },
   "license": "MIT",
   "dependencies": {
