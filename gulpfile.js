@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 		rename = require('gulp-rename'),
 		del = require('del'),
 		browserSync = require('browser-sync').create();
-		
+
 gulp.task('html', function() {
 	return gulp
 		.src('*.html')
@@ -71,7 +71,8 @@ gulp.task('serve', function() {
 		notify: false,
 		server: {
 			baseDir: 'dist/'
-		}
+		},
+		port: process.env.PORT || 5000
 	});
 });
 
